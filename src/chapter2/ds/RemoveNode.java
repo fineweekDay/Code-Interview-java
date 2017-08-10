@@ -16,7 +16,7 @@ public class RemoveNode {
         if(current.value==v)
             return current.next;//是不是null都无所谓
         
-        while(current.value!=v && current!=null){
+        while(current!=null && current.value!=v ){
             pre=current;
             current=current.next;
         }
