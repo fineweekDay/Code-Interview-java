@@ -1,6 +1,5 @@
 package chapter2.ds;
 
-import java.util.ArrayList;
 import java.util.Stack;
 
 /**
@@ -35,5 +34,4 @@ public class QueueOfTwoStacks<T> {
         qs.appendTail("111");
         System.out.println(qs.deleteHead());
     }//out:1
-
 }
