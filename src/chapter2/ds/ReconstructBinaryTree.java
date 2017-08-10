@@ -5,6 +5,8 @@ package chapter2.ds;
  * 对二叉树不够熟悉，借此机会学习，代码来源如下
  * @see <a href="http://blog.csdn.net/jsqfengbao/article/details/47088947>重建二叉树</a>
  * Created by Administrator on 2017/8/10.
+ * 这里的代码过于冗长，更简洁的如下：
+ * @see <a href="http://blog.csdn.net/qq_15062527/article/details/48846457">重建二叉树</a>
  */
 
 public class ReconstructBinaryTree {
