@@ -23,7 +23,7 @@ public class Find {
 
         int ind1=0,ind2=columns-1;
 
-        while(ind1>=0 && ind1<rows-1 && ind2>=0 && ind2<columns){
+        while(ind1>=0 && ind1<rows && ind2>=0 && ind2<columns){
             int tNumber=numbers[ind1][ind2];
             if(tNumber>number)
                 ind2--;
