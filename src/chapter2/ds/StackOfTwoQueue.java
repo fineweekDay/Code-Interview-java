@@ -25,7 +25,7 @@ public class StackOfTwoQueue<T> {
 
     private T pop(Queue<T> q1,Queue<T> q2){
         while(q1.size()>1){
-            q2.add(q1.poll());
+            q2.offer(q1.poll());
         }
         return q1.poll();//当两个都是空队列时，直接输出null
     }
@@ -33,9 +33,9 @@ public class StackOfTwoQueue<T> {
     public void push(T item){
         //根据剑指OFFER分析，至少保持了一个队列为空
         if(queue1.isEmpty())
-            queue2.add(item);
+            queue2.offer(item);
         else
-            queue1.add(item);
+            queue1.offer(item);
     }
 
     public static void main(String[] args){
