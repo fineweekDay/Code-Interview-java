@@ -35,8 +35,11 @@ public class MinNumberInRotatedArray {
 
             if(numbers[index1]==numbers[index2] && numbers[index1]==numbers[indexMid]){
                 return MinInOrder(numbers,index1,index2);
-            }else if (numbers[indexMid]<=numbers[index2])
+            }
+            if (numbers[indexMid]<=numbers[index2])
                 index2=indexMid;
+            else if(numbers[indexMid]>=numbers[index1])
+                index1=indexMid;
         }
 
         return numbers[indexMid];
