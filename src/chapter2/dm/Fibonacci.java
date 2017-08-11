@@ -2,12 +2,13 @@ package chapter2.dm;
 
 /**
  * 题目：求解斐波拉契数列第n项的值
+ * 延伸：青蛙跳台阶/小矩形覆盖大矩形等，一模一样的思路和解法
  * Created by Administrator on 2017/8/11.
  */
 public class Fibonacci {
 
     public static void main(String[] args) {
-        int n=10;
+        int n=100;
         try {
             System.out.println(getN(n));
         } catch (Exception e) {
