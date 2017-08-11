@@ -18,7 +18,7 @@ public class DoublePower {
         double result;
 
         if(equal(base,0.0) && exponent<0) {
-            throw new Exception();//其实不抛出异常也可以，输出结果就是Infinity
+            throw new Exception();//其实不抛出异常也可以（不过会浪费计算时间与空间，输出结果就是Infinity）
         }
 
         if(exponent<0)
