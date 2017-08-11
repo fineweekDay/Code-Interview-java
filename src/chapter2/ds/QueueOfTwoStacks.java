@@ -3,10 +3,11 @@ package chapter2.ds;
 import java.util.Stack;
 
 /**
+ * 题目：用两个栈实现先进先出的队列
  * Created by Administrator on 2017/8/10.
  */
 public class QueueOfTwoStacks<T> {
-
+    //非线程安全
     private Stack<T> stack1,stack2;
 
     public  QueueOfTwoStacks(){
