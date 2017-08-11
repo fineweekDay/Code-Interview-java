@@ -19,19 +19,25 @@ public class QueueOfTwoStacks<T> {
     }
 
     public T deleteHead(){
-        while(!stack1.empty()){
-            stack2.push(stack1.pop());
-        }
-        if(!stack2.empty())
+        if(!stack2.empty()){
             return stack2.pop();
-        else
+        }else if(!stack1.empty()){
+            while(!stack1.empty()){
+                stack2.push(stack1.pop());
+            }
+            return stack2.pop();
+        }else{
             return null;
+        }
+
     }
 
     public static void main(String[] args){
         QueueOfTwoStacks<String> qs=new QueueOfTwoStacks();
         qs.appendTail("1");
+        qs.appendTail("11");
+        System.out.println(qs.deleteHead());
         qs.appendTail("111");
         System.out.println(qs.deleteHead());
-    }//out:1
+    }//out:1 11
 }
