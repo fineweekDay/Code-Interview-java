@@ -8,7 +8,7 @@ public class DoublePower {
 
     public static void main(String[] args){
         try {
-            System.out.println(power(5.0,2));
+            System.out.println(power(5.0,-2));
         } catch (Exception e) {
             e.printStackTrace();
         }
