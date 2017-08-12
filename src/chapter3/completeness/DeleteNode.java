@@ -51,7 +51,7 @@ public class DeleteNode {
         ListNode b=new ListNode(3,c);
         ListNode head=new ListNode(4,b);
 //        ListNode head=tail;
-        head=delete( head,c);
+        head=delete(head,c);
         while(head!=null){
             System.out.println(head.value);
             head=head.next;
