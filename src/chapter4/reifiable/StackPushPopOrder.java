@@ -53,15 +53,13 @@ public class StackPushPopOrder {
 
     //更具一般性的，两个序列长度不相等，进行判断（思路其实是一模一样的，只是更改了循环的条件）
     public static boolean isPopOrder(int [] pPush,int [] pPop) {
-        if(pPush == null || pPop == null){
+        if(pPush == null || pPop == null)
             return false;
-        }
 
         int pushLength = pPush.length;
         int popLength = pPop.length;
-        if(pushLength == 0 || popLength == 0 || popLength > pushLength){
+        if(pushLength == 0 || popLength == 0 || popLength > pushLength)
             return false;
-        }
 
         Stack<Integer> stk = new Stack<>();
 
