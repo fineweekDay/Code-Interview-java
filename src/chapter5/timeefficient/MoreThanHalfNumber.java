@@ -50,7 +50,7 @@ public class MoreThanHalfNumber {
     }
 
     public static void main(String[] args){
-        int[] arr= {1,2,3,2,2,2,5,4,2,};//注意数组中不要含0，不然违背了方法默认假设（可以根据情况更改，不一定用0）
+        int[] arr= {1,2,3,2,2,2,5,4,2,};
         System.out.println(MoreThanHalf(arr));
     }
 }
