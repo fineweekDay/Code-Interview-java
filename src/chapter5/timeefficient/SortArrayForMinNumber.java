@@ -52,7 +52,6 @@ public class SortArrayForMinNumber {
         if(start<end){
             String pivot=array[start];
             int left=start;
-            int right=end;
 
             while(start<end){
                 while(start<end && comparator.compare(array[end],pivot)>=0) end--;
