@@ -6,7 +6,7 @@ import java.util.Comparator;
  * 题目：把数组排成最小的数【需要会证明】
  * 输入一个正整数组，把数组里所有数字拼接起来排成一个数，
  * 打印能拼接出的所有数字中最小的一个。
- * 例子{3,32,321}----out：321323a
+ * 例子{3,32,321}----out：321323
  * <a href="http://wiki.jikexueyuan.com/project/for-offer/question-thirty-three.html">代码借鉴地址</a>---顺便复习下Comparable VS Comparator
  * Created by Administrator on 2017/8/27.
  */
