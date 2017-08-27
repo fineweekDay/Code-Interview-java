@@ -33,6 +33,7 @@ public class SortArrayForMinNumber {
         String[] str=new String[array.length];
         for(int i=0;i<array.length;i++)
             str[i]=Integer.toString(array[i]);
+
         return printMinNumber(str);
     }
 
