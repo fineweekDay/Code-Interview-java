@@ -1,6 +1,5 @@
 package chapter7;
 
-import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -35,8 +34,8 @@ public class CommonFNodeInTree {
         GetNodePath(root,p1,path1);
         GetNodePath(root,p2,path2);
 
-//        System.out.println("path1:"+ Arrays.toString(path1.toArray()));
-//        System.out.println("path2:"+ Arrays.toString(path2.toArray()));
+//        System.out.println("path1:"+ path1);
+//        System.out.println("path2:"+ path2);
 
         return GetLastCommonNode(path1,path2);
     }
