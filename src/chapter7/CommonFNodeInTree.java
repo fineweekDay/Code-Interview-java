@@ -34,8 +34,8 @@ public class CommonFNodeInTree {
         GetNodePath(root,p1,path1);
         GetNodePath(root,p2,path2);
 
-//        System.out.println("path1:"+ path1);
-//        System.out.println("path2:"+ path2);
+//        System.out.println("path1: "+ path1);
+//        System.out.println("path2: "+ path2);
 
         return GetLastCommonNode(path1,path2);
     }
